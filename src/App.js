@@ -1,15 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Header from './componets/Header'
+import Posts from './componets/Posts'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="p-3 mb-2 bg-warning text-dark">
-          <h1>Hacker News</h1>
-        </div>
-      </header>
+      <Header />
+      <Posts />
     </div>
   );
 }
