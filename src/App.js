@@ -7,10 +7,10 @@ import Posts from './componets/Posts'
 
 function App() {
   return (
-    <div className="container">
+    <>
       <Header />
       <Posts />
-    </div>
+    </>
   );
 }
 

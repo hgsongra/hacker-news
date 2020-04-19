@@ -1,0 +1,23 @@
+.tag_selection{
+  margin: 10px;
+}
+
+.tag_selection select{
+  width: 35%;
+}
+
+.posts .row{
+  padding: 5px;
+  word-break: break-all;
+}
+
+.posts .row:nth-child(even){
+  background-color: #f1ebc7;
+}
+.posts .row:nth-child(odd){
+  background-color: #f9d7a5;
+}
+
+.load_more{
+  margin: 10px;
+}
