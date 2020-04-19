@@ -15,3 +15,8 @@ workflows:
     build-and-test:
       jobs:
         - build-and-test
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: hacker-news-sapient
